@@ -46,23 +46,19 @@ else:
     M5 = None
 
 
-ONE_WORDS = ["TERI", "MAA", "KI", "CHUT", "AJA", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "HIJDE", "TERA", "BAAP",
-           "HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE", "AA BETA", "AAGYA", "TERI", "MAA ", "CHODNE",
-           "AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA", "TERI", "MAA", "KE", "BHOSDE",
-           "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
-           "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA🔥", "TERI", "MAA", "KE", "BOOBS",
-           "DABAUNGA","XXX","TERI","MAA","KAA","CHUT","MARU","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
-           "MARU","SUAR","KEE","CHODE","TERI","MAAA","KEEE","NUDES","BECHUNGA","RANDI","KEE","PILLE","TERI","MAAA",
+ONE_WORDS = ["TAREE", "MAA", "KI", "CHUT", "RANDI", "RAND", "KA", "PILA","🇨 🇭 🇺 🇹 ", "🇫 🇦 🇦 🇩 ", "🇩 🇺 🇳 🇬 🇦 ", "🇦 🇳 🇸 🇭 ", "🇹 🇦 🇷 🇪 ", "BAAP","🇭 🇦 🇮 ", "🇲 🇦 🇩 🇪 🇨 🇭 🇴 🇩 ", "🇽 🇽 🇽 ", "🇨 🇭 🇦 🇱 ", "BHEN KE LAUDE", "AA BETA", "AAGYA", "🅣︎🅐︎🅡︎🅔︎", "🅜︎🅐︎🅘︎🅨︎🅐︎", "🅚︎🅘︎",
+           "🅒︎🅗︎🅤︎🅣︎", "🅕︎🅐︎🅐︎🅓︎", "🅓︎🅤︎🅝︎🅖︎🅐︎", "🅡︎🅐︎🅝︎🅓︎🅘︎", "🅚︎🅐︎", "🅟︎🅘︎🅛︎🅐︎", "🅣︎🅐︎🅡︎🅔︎", "🅜︎🅐︎🅐︎", "🅚︎🅘︎🅘︎", "🅒︎🅗︎🅨︎🅣︎", "🅜︎🅔︎", "🅛︎🅞︎🅗︎🅐︎",
+           "🅓︎🅐︎🅛︎", "🅚︎🅐︎", "🅣︎🅐︎🅡︎🅔︎", "🅜︎🅐︎🅐︎", "🅒︎🅗︎🅘︎🅓︎🅤︎🅖︎🅐︎", "🅧︎🅧︎🅧︎", "🅐︎🅤︎🅚︎🅐︎🅣︎", "🅑︎🅐︎🅝︎🅐︎", "🅑︎🅐︎🅐︎🅟︎", "🅢︎🅔︎🅔︎", "🅕︎🅨︎🅣︎",
+           "🅚︎🅡︎🅔︎🅖︎🅐︎", "🅜︎🅐︎🅓︎🅔︎🅒︎🅗︎🅞︎🅓︎", "🅣︎🅐︎🅡︎🅔︎", "🅜︎🅐︎🅐︎", "🅚︎🅔︎", "🅢︎🅐︎🅣︎🅗︎", "🅢︎🅔︎🅧︎", "🅚︎🅐︎🅡︎🅓︎🅐︎🅛︎🅤︎🅖︎🅐︎😹😡", "🆃︎🅰︎🆁︎🅴︎", "🅼︎🅰︎🅸︎🆈︎🅰︎", "🅰︎🅰︎🅹︎", "🅲︎🅷︎🅾︎🅳︎",       "🅳︎🅰︎🅻︎🆄︎🅶︎🅰︎","🅼︎🅰︎🅳︎🅴︎🅲︎🅷︎🅾︎🅳︎","🆃︎🅰︎🆁︎🅴︎","🅼︎🅰︎🅸︎🆈︎🅰︎","🅺︎🅰︎","🅲︎🅷︎🆄︎🆃︎","🅼︎🅰︎🆁︎🆄︎","🆁︎🅰︎🅽︎🅳︎🆄︎I","🅺︎🅴︎","🅿︎🅸︎🅻︎🅰︎","🆃︎🅰︎🆁︎🅴︎","🅱︎🅰︎🅰︎🅿︎","🅰︎🅽︎🆂︎🅷︎","🅰︎🅰︎🅶︎🆈︎🅰︎",
+           "","SUAR","KEE","CHODE","TERI","MAAA","KEEE","NUDES","BECHUNGA","RANDI","KEE","PILLE","TERI","MAAA",
            "CHODU","SUAR","KEEE","PILEE","TERIII","MAAA","DAILYY","CHUDTTI","HAII","MADHARCHOD","AUKAT","BANAA",
            "LODE","TERAA","BAAP","HUU","TERI","GFF","KAA","BHOSDAA","MARUU","MADHARCHOD","TERI ","NANAI","KAA",
            "CHUTT","MARU","TERII","BEHEN","KAAA","BHOSDAA","MARU","RANDII","KEEE","CHODE","TERI","DADI","KAAA","BOOR",
-           "GARAM","KARR","TERE","PUREE","KHANDAN","KOOO","CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
-           "KEEE","PILLEE","NAAK","MEEE","NETAA","BAAP","KOO","KABHII","NAAH","BOLNAA","BETAA","CHUSS","LEEE",
-           "MERAA","LODAA","JAISE","ALUU","KAAA","PAKODAA","TERI","MAAA","BEHEN","GFF","NANI","DIIN","RAAT","SOTEE",
-           "JAGTEE","PELTAA","HUUU","LODEE","CHAAR","CHAWNII","GHODEE","PEEE","TUMM","MEREE","LODEE","PEE","TERI",
-           "MAA","KAAA","BOOBS","DABATA HU", "TERI", "MAA", "KI", "CHUT", "AJA", "TERI", "MAA", "KI", "CHUT",
-           "FAAD", "DUNGA", "HIJDE", "TERA", "BAAP","HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE", "AA BETA",
-           "AAGYA", "TERI", "MAA ", "CHODNE","AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA",
+           "GARAM","KARR","TERE","PUREE","KHANDAN","KOOO","CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA,"SUARR","🄲🄷🄰🄻","🄼🄰🄳🄴🄲🄷🄾🄳","🅃🄰🅁🄴","🄼🄰🄸🅈🄰","🄲🄷🄾🄳🅃🄰🄰","🄷🅄","🅁🄰🄽🅂🄸🄸","🅃🄰🅁🄴","🄳🄸🄳🄸","🄺🄸🄸","🄲🄷🅄🅃","🄺🄸🅃🄽🄰","🄼🄴🄴","🄳🄴🄶🄰",
+           "🆆︎🅰︎🅿︎🅸︎🆂︎","🅰︎🅰︎🅶︎🆈︎🅰︎","🆃︎🅰︎🆁︎🅴︎","🅱︎🅰︎🅰︎🅿︎","🅼︎🅰︎🅳︎🅴︎🅲︎🅷︎🅾︎🅳︎","🆃︎🅰︎🆁︎🅴︎","🅱︎🅷︎🅰︎🅽︎🅸︎🆈︎🅰︎","🅺︎🅰︎","🅻︎🅰︎🅻︎🅰︎","🅲︎🅷︎🆄︎🆃︎🅰︎🆆︎","🅼︎🅴︎","🅻︎🅾︎🅳︎🅰︎","🅳︎🅰︎🅻︎🅻︎",
+           "🅺︎🅰︎🅰︎","🆇︎🆇︎🆇︎","🆃︎🅰︎🆁︎🅴︎","🆃︎🅰︎🆁︎🅴︎", "🅲︎🅻︎🅴︎🅽︎", "🅺︎🅸︎🅸︎", "🅼︎🅰︎🅰︎", "🅺︎🅸︎🅸︎", "🅲︎🅷︎🆄︎🆃︎🆃︎", "🅰︎🅰︎🅹︎🅰︎", "🅼︎🅰︎🅳︎🅴︎🅲︎🅷︎🅾︎🅳︎", "🅰︎🆄︎🅺︎🅰︎🆃︎", "🅷︎ 🆃︎🅰︎🆁︎🅴︎",
+           "🅶︎🅰︎🅽︎🅳︎🆄︎", "🆃︎🅰︎🆁︎🅴︎", "🅼︎🅰︎🅰︎🅰︎🅰︎🅰︎🅰︎", "🅲︎🅷︎🅾︎🅳︎🆄︎🅶︎🅰︎🅰︎🅰︎", "🆃︎🅰︎🆁︎🅴︎🅴︎🅴︎🅴︎","🅴︎🅺︎🅺︎🅺︎🅺︎", "🅱︎🅰︎🅿︎🅿︎🅿︎🅿︎", "🆃︎🅷︎🅰︎🅰︎🅰︎", "🅾︎🅷︎🅷︎🅷︎", "🆅︎🅶︎🅸︎🅸︎🅸︎ 🅼︎🅴︎", "🆃︎🅰︎🆁︎🅴︎🅴︎ 🅼︎🅰︎🅺︎🅸︎ 🅲︎🅷︎🆄︎🆃︎",
+           "", "TERI", "MAA ", "CHODNE","AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA",
            "TERI", "MAA", "KE", "BHOSDE", "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG",
            "SUNUNGA", "PURI","RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA🔥", "TERI", "MAA", "KE",
            "BOOBS","DABAUNGA","XXX","TERI","MAA","KAA","CHUT","MARU","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
@@ -79,9 +75,7 @@ ONE_WORDS = ["TERI", "MAA", "KI", "CHUT", "AJA", "TERI", "MAA", "KI", "CHUT", "F
            "AA BETA", "AAGYA", "TERI", "MAA ", "CHODNE",
            "AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA", "TERI", "MAA", "KE", "BHOSDE",
            "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
-           "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA🔥", "CHUD", "GAYA", "BACCHA", "BAAP SE",
-           "AUKAT ME", "RAHO", "WARNA", "MAA CHOD DENGE TUMARI"]
-
+           "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX"]
 
 async def pyrone(client: Client, message: Message):
     chat_id = message.chat.id
